@@ -1,0 +1,54 @@
+name: Feature request / 功能建议
+description: Something you'd like OpenDock to do / 希望 OpenDock 能做到的事
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. Please search the existing issues first — if someone has
+        suggested the same thing, a thumbs-up there tells us more people want it.
+        **English or Chinese are both fine.**
+
+        感谢建议。提交前请先搜一下已有的 issue，已经有人提过的话，在那条下面点个赞，
+        能让我们知道想要它的人更多。
+        **中文英文都可以。**
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do? / 你想做什么？
+      description: >
+        Describe the situation and what gets in the way today. The use case matters more
+        to us than a specific solution.
+        / 说说你遇到的场景，以及现在卡在哪里。比起具体方案，我们更想了解使用场景。
+      placeholder: |
+        I keep several Finder windows open for one project, and switching between them is slow because…
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like OpenDock to do? / 你希望 OpenDock 怎么做？
+      description: >
+        How you imagine it working. A sketch or a screenshot from another app is welcome.
+        / 你设想的做法。附一张草图，或者其他软件里类似功能的截图都可以。
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: How do you handle it today? / 现在是怎么解决的？
+      description: >
+        Workarounds or other apps you use for this.
+        / 你现在的变通办法，或者用来做这件事的其他软件。
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else / 其他补充
+    validations:
+      required: false

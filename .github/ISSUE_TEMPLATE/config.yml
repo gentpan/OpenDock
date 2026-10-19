@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: First launch & Accessibility permission / 首次启动与权限
+    url: https://github.com/gentpan/OpenDock/blob/main/README.zh-CN.md#%E8%BE%85%E5%8A%A9%E5%8A%9F%E8%83%BD%E6%9D%83%E9%99%90
+    about: OpenDock needs Accessibility permission to read and switch windows. Read this first if windows don't show up or won't switch. / OpenDock 需要辅助功能权限才能读取和切换窗口，窗口不显示或切换不了的话请先看这里。
